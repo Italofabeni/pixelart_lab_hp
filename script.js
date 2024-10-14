@@ -88,7 +88,7 @@ const saveCanvas = () => {
 
 
             link.href = img;
-            link.download = "pixellab.png";
+            link.download = "pixelpicture.png";
 
             link.click();
         }
