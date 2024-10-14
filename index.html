@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Hp art</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pixel Lab Art <i class='bx bxs-invader' style="font-size: 25px;"></i></h1>
+    </header>
+
+    <main>
+        <aside>
+            <span class="option-title">Tamanho:</span>
+            <input type="number" class="input-size" min="4" value="18">
+
+            <span class="option-title">Cor <i class="ri-palette-fill"></i>:</span>
+            <input type="color" class="input-color">
+
+            <span class="option-title">Histórico de cores:</span>
+            <section class="used-colors"></section>
+
+            <button class="button-save"> Baixar imagem <i class="ri-download-line" style="font-size: 15px;"></i></button>
+            <p class="copyright">HP Styles&copy;</p>
+        </aside>
+
+
+        <section class="canvas"></section>
+        <div class="resize"></div>
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
